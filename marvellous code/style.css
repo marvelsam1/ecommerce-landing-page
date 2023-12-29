@@ -1,0 +1,458 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: ;
+}
+
+:root{
+    --black-color: #191C1F;
+    --light-orange: #EBC80C;
+    --color: white;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --blue: #1B6392;
+    --links: #2DA5F3;
+}
+
+/* widget */
+header .widget{
+    background-color: #191C1F;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: var(--font-family);
+    align-items: center;
+    padding: 5px 130px;
+}
+
+.widget .items{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.widget .items-1{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.widget .items-1 img{
+    width: 50px;
+}
+
+.par-1{
+    font-size: 0.7rem;
+}
+
+.par-2{
+    font-size: 2rem;
+    color: var(--light-orange);
+}
+
+.par-3{
+    font-weight: 600;
+}
+
+.bttn{
+    background-color: var(--light-orange);
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bttn a{
+    text-decoration: none;
+    color: #191C1F;
+    font-weight: 500;
+}
+
+/* button a i{
+    color: #191C1F;
+} */
+
+/* top-nav */
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 0.9rem;
+    align-items: center;
+    padding: 10px 130px;
+}
+
+.social-media{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.middle-nav{
+    display: flex;
+    margin-top: 1px;
+    justify-content: space-between;
+    background-color: var(--blue);
+    align-items: center;
+    padding: 10px 130px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.middle-nav .search input{
+    padding: 10px;
+    width: 350px;
+    border: none;
+    outline: none;
+}
+
+.search i{
+    position: absolute;
+    left: 54rem;
+    padding: 10px;
+}
+/* The dropdown container */
+/* .dropdown {
+    float: left;
+    overflow: hidden;
+  } */
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 11px;
+    border: none;
+    outline: none;
+    color: #191C1F;
+    padding: 8px 12px;
+    background-color: #F2F4F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* .dropdown:hover */ .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .lower-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 130px;
+    align-items: center;
+    box-shadow: 3px 3px 5px #aaaaaa;
+  }
+
+  .right-links{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .right-links .links img{
+    width: 100px;
+  }
+
+  /* main */
+  main{
+    padding: 20px 130px;
+  }
+
+  main .flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-1 .items-1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 45rem;
+    background-color: #F2F4F5;
+    height: 21rem;
+    position: relative;
+  }
+
+  .side-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .flex-1 .items-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .flex-1 .items-3{
+    width: 22rem;
+    height: 10rem;
+    background-color: #F2F4F5;
+  }
+
+  .side-2 img{
+    width: 15rem;
+  }
+
+  .side-1 .btn{
+    width: 30%;
+    background-color: #FA8232;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    color: var(--color);
+  }
+
+  .side-1 .btn a{
+    color: var(--color);
+    text-decoration: none;
+  }
+
+  .price{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  .price img{
+    width: 80px;
+  }
+
+  .items-2-5{
+    background-color: #191C1F;
+    display: flex;
+    gap: 0.5rem;
+    padding: 20px;
+    position: relative;
+  }
+
+  .imm{
+    width: 140px;
+  }
+
+  .btn-3{
+    width: 80%;
+    background-color: #FA8232;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    color: var(--color);
+  }
+
+  .btn-3 a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .im{
+    width: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .badge{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    width: 60px;
+  }
+
+  .flex-1 .items-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0px;
+  }
+
+  .flex-1 .items-3 .info{
+    display: block;
+  }
+
+  .flex-1 .items-3 .image img{
+    width: 140px;
+  }
+
+  .flex-1 .items-3 .info img{
+    width: 140px;
+  }
+
+  .btn-4{
+    width: 70%;
+    background-color: #FA8232;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    color: var(--color);
+  }
+
+  .btn-4 a{
+    text-decoration: none;
+    color: white;
+  }
+  /* features */
+  .features img{
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  /* section-2 */
+  .section-2 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .section-2 .header .left-child{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .section-2 .header .left-child h5{
+    background-color: var(--light-orange);
+    padding: 10px;
+  }
+  .section-2 .header .right-child a{
+    text-decoration: none;
+    color: var(--links);
+  }
+
+  .shopping-items{
+    display: flex;
+    background-color: #F2F4F5;
+    padding: 2px;
+    gap: 2px;
+    margin-top: 20px;
+  }
+
+  .shopping-items .shop-items{
+    width: 15rem;
+    height: 30rem;
+    background-color: var(--color);
+  }
+
+  .nested-parent{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  /* small-boxes */
+
+  .shopping-items .nested-item{
+    width: 12rem;
+    height: 15rem;
+    background-color: var(--color);
+    border-bottom: 1px solid #F2F4F5;
+    transition: width 0.5s ease-in-out;
+  }
+
+/* small-boxes-hover */
+.shopping-items .nested-item:hover{
+  width: 13rem;
+}
+
+  .shop-items {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .shop-items .text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .shop-items .text .shp1-img{
+    width: 110px;
+  }
+
+  .shop-items .text .shp-img{
+    width: 210px;
+  }
+
+  .shop-items .text p, .shop-items .nested-item p{
+    font-size: 0.8rem;
+  }
+
+  .shop-items .text .shp2-img{
+    width: 50px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+  }
+
+.shop-items .nested-item .shp3-img{
+  width: 180px;
+}
+
+
+
+.shop-items .nested-item h4{
+  color: var(--links);
+}
+
+.shop-items .nested-item span{
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+
+.shop-items a{
+  text-decoration: none;
+  color: #191C1F;
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+  
